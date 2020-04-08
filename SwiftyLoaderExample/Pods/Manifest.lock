@@ -1,0 +1,16 @@
+PODS:
+  - SwiftyLoader (1.0)
+
+DEPENDENCIES:
+  - SwiftyLoader (from `../SwiftyLoader/`)
+
+EXTERNAL SOURCES:
+  SwiftyLoader:
+    :path: "../SwiftyLoader/"
+
+SPEC CHECKSUMS:
+  SwiftyLoader: 4828f00fbbc58032c5e31b58094d150ea9571ad2
+
+PODFILE CHECKSUM: f12045b3f8a4c1f4ffbefeb4a0e6d12e4b8c9958
+
+COCOAPODS: 1.9.1
