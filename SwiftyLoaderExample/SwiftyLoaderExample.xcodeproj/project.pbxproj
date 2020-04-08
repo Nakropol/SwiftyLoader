@@ -3,14 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		4D1C0EB8243DF0C300C537E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1C0EB7243DF0C300C537E6 /* AppDelegate.swift */; };
-		4D1C0EBA243DF0C300C537E6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1C0EB9243DF0C300C537E6 /* SceneDelegate.swift */; };
 		4D1C0EBC243DF0C300C537E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1C0EBB243DF0C300C537E6 /* ViewController.swift */; };
-		4D1C0EBF243DF0C300C537E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D1C0EBD243DF0C300C537E6 /* Main.storyboard */; };
 		4D1C0EC1243DF0C700C537E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D1C0EC0243DF0C700C537E6 /* Assets.xcassets */; };
 		4D1C0EC4243DF0C700C537E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D1C0EC2243DF0C700C537E6 /* LaunchScreen.storyboard */; };
 		ACD8883E0E22AC00EC7B66FB /* Pods_SwiftyLoaderExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B86686B41667BF21E627301 /* Pods_SwiftyLoaderExample.framework */; };
@@ -20,12 +18,12 @@
 		0B86686B41667BF21E627301 /* Pods_SwiftyLoaderExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyLoaderExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D1C0EB4243DF0C300C537E6 /* SwiftyLoaderExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyLoaderExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D1C0EB7243DF0C300C537E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4D1C0EB9243DF0C300C537E6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4D1C0EBB243DF0C300C537E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4D1C0EBE243DF0C300C537E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4D1C0EC0243DF0C700C537E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D1C0EC3243DF0C700C537E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D1C0EC5243DF0C700C537E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D1C0ECF243E8F2800C537E6 /* SwiftyLoader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyLoader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D2F4F58243E90C000C104B8 /* SwiftyLoader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyLoader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		66D6C5B39B1017834F73C0B5 /* Pods-SwiftyLoaderExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyLoaderExample.release.xcconfig"; path = "Target Support Files/Pods-SwiftyLoaderExample/Pods-SwiftyLoaderExample.release.xcconfig"; sourceTree = "<group>"; };
 		8A4606109F77E374B1B834A4 /* Pods-SwiftyLoaderExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyLoaderExample.debug.xcconfig"; path = "Target Support Files/Pods-SwiftyLoaderExample/Pods-SwiftyLoaderExample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -45,6 +43,8 @@
 		4AE670D4639F01DC9EFFC038 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4D2F4F58243E90C000C104B8 /* SwiftyLoader.framework */,
+				4D1C0ECF243E8F2800C537E6 /* SwiftyLoader.framework */,
 				0B86686B41667BF21E627301 /* Pods_SwiftyLoaderExample.framework */,
 			);
 			name = Frameworks;
@@ -72,9 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				4D1C0EB7243DF0C300C537E6 /* AppDelegate.swift */,
-				4D1C0EB9243DF0C300C537E6 /* SceneDelegate.swift */,
 				4D1C0EBB243DF0C300C537E6 /* ViewController.swift */,
-				4D1C0EBD243DF0C300C537E6 /* Main.storyboard */,
 				4D1C0EC0243DF0C700C537E6 /* Assets.xcassets */,
 				4D1C0EC2243DF0C700C537E6 /* LaunchScreen.storyboard */,
 				4D1C0EC5243DF0C700C537E6 /* Info.plist */,
@@ -88,7 +86,6 @@
 				8A4606109F77E374B1B834A4 /* Pods-SwiftyLoaderExample.debug.xcconfig */,
 				66D6C5B39B1017834F73C0B5 /* Pods-SwiftyLoaderExample.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -103,7 +100,7 @@
 				4D1C0EB0243DF0C300C537E6 /* Sources */,
 				4D1C0EB1243DF0C300C537E6 /* Frameworks */,
 				4D1C0EB2243DF0C300C537E6 /* Resources */,
-				91D7F862CF162D0841FCE3C9 /* [CP] Embed Pods Frameworks */,
+				B8D60D7E972389C02EC6DE14 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,7 +151,6 @@
 			files = (
 				4D1C0EC4243DF0C700C537E6 /* LaunchScreen.storyboard in Resources */,
 				4D1C0EC1243DF0C700C537E6 /* Assets.xcassets in Resources */,
-				4D1C0EBF243DF0C300C537E6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,7 +179,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		91D7F862CF162D0841FCE3C9 /* [CP] Embed Pods Frameworks */ = {
+		B8D60D7E972389C02EC6DE14 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -209,21 +205,12 @@
 			files = (
 				4D1C0EBC243DF0C300C537E6 /* ViewController.swift in Sources */,
 				4D1C0EB8243DF0C300C537E6 /* AppDelegate.swift in Sources */,
-				4D1C0EBA243DF0C300C537E6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4D1C0EBD243DF0C300C537E6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4D1C0EBE243DF0C300C537E6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4D1C0EC2243DF0C700C537E6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -285,7 +272,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -339,7 +326,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -363,8 +350,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Nakropol.SwiftyLoaderExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -382,8 +369,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Nakropol.SwiftyLoaderExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

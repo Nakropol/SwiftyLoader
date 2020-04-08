@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class SwiftyLoader: UIView {
+public class SwiftyLoader: UIView {
     
     private let progressLayer = CAShapeLayer()
     
@@ -119,7 +119,6 @@ class SwiftyLoader: UIView {
     // MARK: - Opener Animation
     
     private func openerAnimation(animationType: SwiftyLoaderStyle, completion: AnimationCompletion) {
-        print(animationType)
         
         UIApplication.shared.keyWindow?.addSubview(lightBoxView)
         
@@ -194,7 +193,7 @@ class SwiftyLoader: UIView {
         
         progressLayer.strokeEnd = 0
         progressLayer.lineWidth = _indicatorLineSize
-        progressLayer.lineCap = .round
+        progressLayer.lineCap = kCALineCapRound
         progressLayer.fillColor = UIColor.clear.cgColor
         progressLayer.strokeColor = _indicatorColor
         
@@ -205,7 +204,7 @@ class SwiftyLoader: UIView {
             animation.fromValue = 0
             animation.toValue = 1
             animation.duration = 1.2
-            animation.fillMode = .forwards
+            animation.fillMode = kCAFillModeForwards
             animation.isRemovedOnCompletion = false
             
             return animation
@@ -217,7 +216,7 @@ class SwiftyLoader: UIView {
             animation.toValue = 1
             animation.beginTime = 0.5
             animation.duration = 0.7
-            animation.fillMode = .forwards
+            animation.fillMode = kCAFillModeForwards
             animation.isRemovedOnCompletion = false
 
             return animation
