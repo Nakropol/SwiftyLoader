@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
   spec.swift_versions = "4.0"
 
 
-  spec.source       = { :git => "https://github.com/Nakropol/SwiftyLoader.git", :tag => spec.version }
+  spec.source       = { :git => "https://github.com/Nakropol/SwiftyLoader.git", :tag => "1.0" }
 
   spec.source_files  = "SwiftyLoader/**/*.{h,m,swift}"
   spec.exclude_files = "Classes/Exclude"
