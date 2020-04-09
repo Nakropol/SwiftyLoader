@@ -33,11 +33,14 @@ let loader = SwiftyLoader()
 ....
 
 loader.startLoader() {
-	print("Loaded.")
+   print("Loaded.")
+   // Do anything your heart desires...
 }
 
 loader.closeLoader() {
-	print("Closed.")
+   print("Closed.")
+   // Do anything your heart desires...
 }
 
 ```
+
