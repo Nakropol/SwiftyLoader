@@ -9,7 +9,7 @@ Hi, **SwiftyLoader** is a simple loader screen for iOS App.
 2. Add this repo to your `Podfile`
 ```swift
 
-  target 'ExamplePod' do
+target 'ExamplePod' do
   # Comment the next line if you don't want to use dynamic frameworks
     use_frameworks!
   
