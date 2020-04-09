@@ -32,7 +32,7 @@ class ViewController: UIViewController {
         
         let cons = [
             mainButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-            mainButton.centerYAnchor.constraint(equalTo: view.bottomAnchor)
+            mainButton.centerYAnchor.constraint(equalTo: view.centerYAnchor)
         ]
         
         NSLayoutConstraint.activate(cons)
