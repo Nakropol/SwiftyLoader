@@ -14,7 +14,7 @@ Hi, **SwiftyLoader** is a simple loader screen for iOS App.
     use_frameworks!
   
   # Pods for ExamplePod
-	pod 'SwiftyLoader'
+    pod 'SwiftyLoader'
 end
 
 ```
