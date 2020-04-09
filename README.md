@@ -23,7 +23,7 @@ Simple Loader for Swift
 
 ### Basic Usage
 
-```sh
+```swift
 import SwiftyLoader
 
 ...
@@ -33,11 +33,11 @@ let loader = SwiftyLoader()
 ....
 
 loader.startLoader() {
-	print("End")
+	print("Loaded.")
 }
 
 loader.closeLoader() {
-	print("Closed")
+	print("Closed.")
 }
 
 ```
