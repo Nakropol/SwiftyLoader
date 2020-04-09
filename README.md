@@ -19,3 +19,25 @@ Simple Loader for Swift
 3. Run `pod install`
 4. Open up the `.xcworkspace` that CocoaPods created
 5. Done!
+
+
+### Basic Usage
+
+```sh
+import SwiftyLoader
+
+...
+
+let loader = SwiftyLoader()
+
+....
+
+loader.startLoader() {
+	print("End")
+}
+
+loader.closeLoader() {
+	print("Closed")
+}
+
+```
