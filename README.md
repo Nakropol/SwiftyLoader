@@ -1,5 +1,5 @@
 ## Welcome to Swifty Loader!
-Hi, **SwiftyLoader** is a simple loader animation for iOS App.
+Hi, **SwiftyLoader** is a simple loader screen for iOS App.
 
 
 ## Installation
