@@ -21,7 +21,7 @@ Simple Loader for Swift
 5. Done!
 
 
-### Basic Usage
+## Usage
 
 ```swift
 import SwiftyLoader
