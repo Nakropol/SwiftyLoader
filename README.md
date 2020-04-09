@@ -2,6 +2,9 @@
 Hi, **SwiftyLoader** is a simple loader screen for iOS App.
 
 
+![Swifty Loader](https://signakro.com/github/Animation.gif)
+
+
 ## Installation
 
 ### Cocoapods
